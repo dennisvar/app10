@@ -6,13 +6,20 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<button onclick="addItem('pizza',2.00)">pizza</button>
-		<button onclick="addItem('burger',1.09)">burger</button>
-		<button onclick="addItem('ice cream',4.98)">ice cream</button>
-		<button onclick="addItem('cake',3.79)">cake</button>
-		<button onclick="addItem('nachos',6.50)">nachos</button>
-		<button onclick="addItem('pie',5.25)">pizza</button>
+		<div id="row-container">
+			<div class="btn-container">
+				<button onclick="addItem('pizza',2.00)">pizza</button>
+				<button onclick="addItem('burger',1.09)">burger</button>
+				<button onclick="addItem('ice cream',4.98)">ice cream</button>
+			</div>
+			<div class="btn-container">
+				<button onclick="addItem('cake',3.79)">cake</button>
+				<button onclick="addItem('nachos',6.50)">nachos</button>
+				<button onclick="addItem('pie',5.25)">pizza</button>
+			</div>
+		</div>
 		<br>
+		<img id="food" src="food.jpg">
 		<p id="receipt"></p>
 		<script src="script.js"></script>
 	</body>

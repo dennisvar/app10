@@ -1,0 +1,16 @@
+#row-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
+#receipt {
+	text-align: center;
+}
+
+#food {
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+}
